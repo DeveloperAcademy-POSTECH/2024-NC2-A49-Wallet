@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3189F622C200002007C2B0B /* PassButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189F612C200002007C2B0B /* PassButtonView.swift */; };
+		D3189F6C2C207172007C2B0B /* NC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F652C207172007C2B0B /* NC1.pkpass */; };
+		D3189F6E2C207172007C2B0B /* PRELUDE.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F672C207172007C2B0B /* PRELUDE.pkpass */; };
+		D3189F6F2C207172007C2B0B /* MC3.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F682C207172007C2B0B /* MC3.pkpass */; };
+		D3189F702C207172007C2B0B /* MC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F692C207172007C2B0B /* MC1.pkpass */; };
+		D3189F712C207172007C2B0B /* NC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F6A2C207172007C2B0B /* NC2.pkpass */; };
+		D3189F722C207172007C2B0B /* MC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F6B2C207172007C2B0B /* MC2.pkpass */; };
+		D3189F742C20768C007C2B0B /* MACRO.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F732C20768C007C2B0B /* MACRO.pkpass */; };
 		D37B628F2C1FD2D900B5650C /* Board_ingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */; };
 		D37B62912C1FD2D900B5650C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B62902C1FD2D900B5650C /* ContentView.swift */; };
 		D37B62932C1FD2DB00B5650C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37B62922C1FD2DB00B5650C /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3189F612C200002007C2B0B /* PassButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassButtonView.swift; sourceTree = "<group>"; };
+		D3189F652C207172007C2B0B /* NC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = NC1.pkpass; sourceTree = "<group>"; };
+		D3189F672C207172007C2B0B /* PRELUDE.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = PRELUDE.pkpass; sourceTree = "<group>"; };
+		D3189F682C207172007C2B0B /* MC3.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = MC3.pkpass; sourceTree = "<group>"; };
+		D3189F692C207172007C2B0B /* MC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = MC1.pkpass; sourceTree = "<group>"; };
+		D3189F6A2C207172007C2B0B /* NC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = NC2.pkpass; sourceTree = "<group>"; };
+		D3189F6B2C207172007C2B0B /* MC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = MC2.pkpass; sourceTree = "<group>"; };
+		D3189F732C20768C007C2B0B /* MACRO.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MACRO.pkpass; path = "../../../Pass-Event-Card-Demo/MACRO.pkpass"; sourceTree = "<group>"; };
 		D37B628B2C1FD2D900B5650C /* Board-ing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Board-ing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board_ingApp.swift; sourceTree = "<group>"; };
 		D37B62902C1FD2D900B5650C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +69,15 @@
 			children = (
 				D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */,
 				D37B62902C1FD2D900B5650C /* ContentView.swift */,
+				D3189F612C200002007C2B0B /* PassButtonView.swift */,
 				D37B62922C1FD2DB00B5650C /* Assets.xcassets */,
+				D3189F732C20768C007C2B0B /* MACRO.pkpass */,
+				D3189F692C207172007C2B0B /* MC1.pkpass */,
+				D3189F6B2C207172007C2B0B /* MC2.pkpass */,
+				D3189F682C207172007C2B0B /* MC3.pkpass */,
+				D3189F652C207172007C2B0B /* NC1.pkpass */,
+				D3189F6A2C207172007C2B0B /* NC2.pkpass */,
+				D3189F672C207172007C2B0B /* PRELUDE.pkpass */,
 				D37B62942C1FD2DB00B5650C /* Preview Content */,
 			);
 			path = "Board-ing";
@@ -126,7 +150,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37B62962C1FD2DB00B5650C /* Preview Assets.xcassets in Resources */,
+				D3189F6F2C207172007C2B0B /* MC3.pkpass in Resources */,
+				D3189F742C20768C007C2B0B /* MACRO.pkpass in Resources */,
 				D37B62932C1FD2DB00B5650C /* Assets.xcassets in Resources */,
+				D3189F702C207172007C2B0B /* MC1.pkpass in Resources */,
+				D3189F722C207172007C2B0B /* MC2.pkpass in Resources */,
+				D3189F712C207172007C2B0B /* NC2.pkpass in Resources */,
+				D3189F6C2C207172007C2B0B /* NC1.pkpass in Resources */,
+				D3189F6E2C207172007C2B0B /* PRELUDE.pkpass in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +170,7 @@
 			files = (
 				D37B62912C1FD2D900B5650C /* ContentView.swift in Sources */,
 				D37B628F2C1FD2D900B5650C /* Board_ingApp.swift in Sources */,
+				D3189F622C200002007C2B0B /* PassButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
