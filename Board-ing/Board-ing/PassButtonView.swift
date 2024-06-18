@@ -15,16 +15,13 @@ struct PassButtonView: UIViewControllerRepresentable {
         let button = UIButton(type: .system)
         button.setTitle("Add \(passName) to Wallet", for: .normal)
         button.addTarget(context.coordinator, action: #selector(context.coordinator.addPass), for: .touchUpInside)
-        button.layer.cornerRadius = 0
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.black.cgColor
         viewController.view.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             button.centerXAnchor.constraint(equalTo: viewController.view.centerXAnchor),
-            button.centerYAnchor.constraint(equalTo: viewController.view.centerYAnchor),
-            button.widthAnchor.constraint(equalToConstant: 200),
-            button.heightAnchor.constraint(equalToConstant: 50)
+            button.centerYAnchor.constraint(equalTo: viewController.view.centerYAnchor)
+//            button.widthAnchor.constraint(equalToConstant: 200)
+//            button.heightAnchor.constraint(equalToConstant: 50)
         ])
         return viewController
     }

@@ -8,33 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		D3189F622C200002007C2B0B /* PassButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189F612C200002007C2B0B /* PassButtonView.swift */; };
-		D3189F6C2C207172007C2B0B /* NC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F652C207172007C2B0B /* NC1.pkpass */; };
-		D3189F6E2C207172007C2B0B /* PRELUDE.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F672C207172007C2B0B /* PRELUDE.pkpass */; };
-		D3189F6F2C207172007C2B0B /* MC3.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F682C207172007C2B0B /* MC3.pkpass */; };
-		D3189F702C207172007C2B0B /* MC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F692C207172007C2B0B /* MC1.pkpass */; };
-		D3189F712C207172007C2B0B /* NC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F6A2C207172007C2B0B /* NC2.pkpass */; };
-		D3189F722C207172007C2B0B /* MC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F6B2C207172007C2B0B /* MC2.pkpass */; };
-		D3189F742C20768C007C2B0B /* MACRO.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F732C20768C007C2B0B /* MACRO.pkpass */; };
+		D3189F7C2C2157B4007C2B0B /* NC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F752C2157B4007C2B0B /* NC2.pkpass */; };
+		D3189F7D2C2157B4007C2B0B /* PRELUDE.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F762C2157B4007C2B0B /* PRELUDE.pkpass */; };
+		D3189F7E2C2157B4007C2B0B /* MC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F772C2157B4007C2B0B /* MC1.pkpass */; };
+		D3189F7F2C2157B4007C2B0B /* MC3.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F782C2157B4007C2B0B /* MC3.pkpass */; };
+		D3189F802C2157B4007C2B0B /* MACRO.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F792C2157B4007C2B0B /* MACRO.pkpass */; };
+		D3189F812C2157B4007C2B0B /* MC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F7A2C2157B4007C2B0B /* MC2.pkpass */; };
+		D3189F822C2157B4007C2B0B /* NC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F7B2C2157B4007C2B0B /* NC1.pkpass */; };
+		D3189F842C2159A1007C2B0B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189F832C2159A1007C2B0B /* SplashView.swift */; };
 		D37B628F2C1FD2D900B5650C /* Board_ingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */; };
 		D37B62912C1FD2D900B5650C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B62902C1FD2D900B5650C /* ContentView.swift */; };
 		D37B62932C1FD2DB00B5650C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37B62922C1FD2DB00B5650C /* Assets.xcassets */; };
 		D37B62962C1FD2DB00B5650C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37B62952C1FD2DB00B5650C /* Preview Assets.xcassets */; };
+		D3C8AB1F2C215BBD009404DB /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8AB1E2C215BBD009404DB /* mainView.swift */; };
+		D3C8AB232C21721C009404DB /* onBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8AB222C21721C009404DB /* onBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3189F612C200002007C2B0B /* PassButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassButtonView.swift; sourceTree = "<group>"; };
-		D3189F652C207172007C2B0B /* NC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = NC1.pkpass; sourceTree = "<group>"; };
-		D3189F672C207172007C2B0B /* PRELUDE.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = PRELUDE.pkpass; sourceTree = "<group>"; };
-		D3189F682C207172007C2B0B /* MC3.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = MC3.pkpass; sourceTree = "<group>"; };
-		D3189F692C207172007C2B0B /* MC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = MC1.pkpass; sourceTree = "<group>"; };
-		D3189F6A2C207172007C2B0B /* NC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = NC2.pkpass; sourceTree = "<group>"; };
-		D3189F6B2C207172007C2B0B /* MC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = MC2.pkpass; sourceTree = "<group>"; };
-		D3189F732C20768C007C2B0B /* MACRO.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MACRO.pkpass; path = "../../../Pass-Event-Card-Demo/MACRO.pkpass"; sourceTree = "<group>"; };
+		D3189F752C2157B4007C2B0B /* NC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = NC2.pkpass; path = "../../../Pass-Event-Card-Demo/NC2.pkpass"; sourceTree = "<group>"; };
+		D3189F762C2157B4007C2B0B /* PRELUDE.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = PRELUDE.pkpass; path = "../../../Pass-Event-Card-Demo/PRELUDE.pkpass"; sourceTree = "<group>"; };
+		D3189F772C2157B4007C2B0B /* MC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC1.pkpass; path = "../../../Pass-Event-Card-Demo/MC1.pkpass"; sourceTree = "<group>"; };
+		D3189F782C2157B4007C2B0B /* MC3.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC3.pkpass; path = "../../../Pass-Event-Card-Demo/MC3.pkpass"; sourceTree = "<group>"; };
+		D3189F792C2157B4007C2B0B /* MACRO.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MACRO.pkpass; path = "../../../Pass-Event-Card-Demo/MACRO.pkpass"; sourceTree = "<group>"; };
+		D3189F7A2C2157B4007C2B0B /* MC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC2.pkpass; path = "../../../Pass-Event-Card-Demo/MC2.pkpass"; sourceTree = "<group>"; };
+		D3189F7B2C2157B4007C2B0B /* NC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = NC1.pkpass; path = "../../../Pass-Event-Card-Demo/NC1.pkpass"; sourceTree = "<group>"; };
+		D3189F832C2159A1007C2B0B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		D37B628B2C1FD2D900B5650C /* Board-ing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Board-ing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board_ingApp.swift; sourceTree = "<group>"; };
 		D37B62902C1FD2D900B5650C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D37B62922C1FD2DB00B5650C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D37B62952C1FD2DB00B5650C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3C8AB1E2C215BBD009404DB /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		D3C8AB222C21721C009404DB /* onBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +74,19 @@
 			isa = PBXGroup;
 			children = (
 				D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */,
+				D3C8AB1E2C215BBD009404DB /* mainView.swift */,
+				D3189F832C2159A1007C2B0B /* SplashView.swift */,
+				D3C8AB222C21721C009404DB /* onBoardingView.swift */,
 				D37B62902C1FD2D900B5650C /* ContentView.swift */,
 				D3189F612C200002007C2B0B /* PassButtonView.swift */,
 				D37B62922C1FD2DB00B5650C /* Assets.xcassets */,
-				D3189F732C20768C007C2B0B /* MACRO.pkpass */,
-				D3189F692C207172007C2B0B /* MC1.pkpass */,
-				D3189F6B2C207172007C2B0B /* MC2.pkpass */,
-				D3189F682C207172007C2B0B /* MC3.pkpass */,
-				D3189F652C207172007C2B0B /* NC1.pkpass */,
-				D3189F6A2C207172007C2B0B /* NC2.pkpass */,
-				D3189F672C207172007C2B0B /* PRELUDE.pkpass */,
+				D3189F792C2157B4007C2B0B /* MACRO.pkpass */,
+				D3189F772C2157B4007C2B0B /* MC1.pkpass */,
+				D3189F7A2C2157B4007C2B0B /* MC2.pkpass */,
+				D3189F782C2157B4007C2B0B /* MC3.pkpass */,
+				D3189F7B2C2157B4007C2B0B /* NC1.pkpass */,
+				D3189F752C2157B4007C2B0B /* NC2.pkpass */,
+				D3189F762C2157B4007C2B0B /* PRELUDE.pkpass */,
 				D37B62942C1FD2DB00B5650C /* Preview Content */,
 			);
 			path = "Board-ing";
@@ -150,14 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37B62962C1FD2DB00B5650C /* Preview Assets.xcassets in Resources */,
-				D3189F6F2C207172007C2B0B /* MC3.pkpass in Resources */,
-				D3189F742C20768C007C2B0B /* MACRO.pkpass in Resources */,
+				D3189F7F2C2157B4007C2B0B /* MC3.pkpass in Resources */,
 				D37B62932C1FD2DB00B5650C /* Assets.xcassets in Resources */,
-				D3189F702C207172007C2B0B /* MC1.pkpass in Resources */,
-				D3189F722C207172007C2B0B /* MC2.pkpass in Resources */,
-				D3189F712C207172007C2B0B /* NC2.pkpass in Resources */,
-				D3189F6C2C207172007C2B0B /* NC1.pkpass in Resources */,
-				D3189F6E2C207172007C2B0B /* PRELUDE.pkpass in Resources */,
+				D3189F7C2C2157B4007C2B0B /* NC2.pkpass in Resources */,
+				D3189F812C2157B4007C2B0B /* MC2.pkpass in Resources */,
+				D3189F7D2C2157B4007C2B0B /* PRELUDE.pkpass in Resources */,
+				D3189F7E2C2157B4007C2B0B /* MC1.pkpass in Resources */,
+				D3189F802C2157B4007C2B0B /* MACRO.pkpass in Resources */,
+				D3189F822C2157B4007C2B0B /* NC1.pkpass in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37B62912C1FD2D900B5650C /* ContentView.swift in Sources */,
+				D3189F842C2159A1007C2B0B /* SplashView.swift in Sources */,
 				D37B628F2C1FD2D900B5650C /* Board_ingApp.swift in Sources */,
+				D3C8AB232C21721C009404DB /* onBoardingView.swift in Sources */,
+				D3C8AB1F2C215BBD009404DB /* mainView.swift in Sources */,
 				D3189F622C200002007C2B0B /* PassButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
