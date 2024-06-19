@@ -9,11 +9,10 @@ import SwiftUI
 
 @main
 struct Board_ingApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-            
-            
+            mainView()
         }
     }
 }
