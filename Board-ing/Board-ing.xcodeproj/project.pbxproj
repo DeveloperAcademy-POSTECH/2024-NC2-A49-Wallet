@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3189F622C200002007C2B0B /* PassButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189F612C200002007C2B0B /* PassButtonView.swift */; };
-		D3189F7C2C2157B4007C2B0B /* NC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F752C2157B4007C2B0B /* NC2.pkpass */; };
-		D3189F7D2C2157B4007C2B0B /* PRELUDE.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F762C2157B4007C2B0B /* PRELUDE.pkpass */; };
-		D3189F7E2C2157B4007C2B0B /* MC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F772C2157B4007C2B0B /* MC1.pkpass */; };
-		D3189F7F2C2157B4007C2B0B /* MC3.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F782C2157B4007C2B0B /* MC3.pkpass */; };
-		D3189F802C2157B4007C2B0B /* MACRO.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F792C2157B4007C2B0B /* MACRO.pkpass */; };
-		D3189F812C2157B4007C2B0B /* MC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F7A2C2157B4007C2B0B /* MC2.pkpass */; };
-		D3189F822C2157B4007C2B0B /* NC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3189F7B2C2157B4007C2B0B /* NC1.pkpass */; };
+		D3189F622C200002007C2B0B /* PassViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189F612C200002007C2B0B /* PassViewControllerWrapper.swift */; };
 		D3189F842C2159A1007C2B0B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189F832C2159A1007C2B0B /* SplashView.swift */; };
 		D37B628F2C1FD2D900B5650C /* Board_ingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */; };
 		D37B62912C1FD2D900B5650C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B62902C1FD2D900B5650C /* ContentView.swift */; };
@@ -22,17 +15,20 @@
 		D37B62962C1FD2DB00B5650C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37B62952C1FD2DB00B5650C /* Preview Assets.xcassets */; };
 		D3C8AB1F2C215BBD009404DB /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8AB1E2C215BBD009404DB /* mainView.swift */; };
 		D3C8AB232C21721C009404DB /* onBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8AB222C21721C009404DB /* onBoardingView.swift */; };
+		D3F6A7D92C22AEDF006BE2BA /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F6A7D82C22AEDF006BE2BA /* CompleteView.swift */; };
+		D3F6A7DB2C22C50A006BE2BA /* NexaBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7DA2C22C509006BE2BA /* NexaBold.otf */; };
+		D3F6A7E52C22CCD0006BE2BA /* MACRO.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7DD2C22CCD0006BE2BA /* MACRO.pkpass */; };
+		D3F6A7E62C22CCD0006BE2BA /* MC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7DE2C22CCD0006BE2BA /* MC2.pkpass */; };
+		D3F6A7E72C22CCD0006BE2BA /* PRELUDE.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7DF2C22CCD0006BE2BA /* PRELUDE.pkpass */; };
+		D3F6A7E82C22CCD0006BE2BA /* MC3.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7E02C22CCD0006BE2BA /* MC3.pkpass */; };
+		D3F6A7E92C22CCD0006BE2BA /* NC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7E12C22CCD0006BE2BA /* NC1.pkpass */; };
+		D3F6A7EA2C22CCD0006BE2BA /* EPILOGUE.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7E22C22CCD0006BE2BA /* EPILOGUE.pkpass */; };
+		D3F6A7EB2C22CCD0006BE2BA /* NC2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7E32C22CCD0006BE2BA /* NC2.pkpass */; };
+		D3F6A7EC2C22CCD0006BE2BA /* MC1.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = D3F6A7E42C22CCD0006BE2BA /* MC1.pkpass */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3189F612C200002007C2B0B /* PassButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassButtonView.swift; sourceTree = "<group>"; };
-		D3189F752C2157B4007C2B0B /* NC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = NC2.pkpass; path = "../../../Pass-Event-Card-Demo/NC2.pkpass"; sourceTree = "<group>"; };
-		D3189F762C2157B4007C2B0B /* PRELUDE.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = PRELUDE.pkpass; path = "../../../Pass-Event-Card-Demo/PRELUDE.pkpass"; sourceTree = "<group>"; };
-		D3189F772C2157B4007C2B0B /* MC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC1.pkpass; path = "../../../Pass-Event-Card-Demo/MC1.pkpass"; sourceTree = "<group>"; };
-		D3189F782C2157B4007C2B0B /* MC3.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC3.pkpass; path = "../../../Pass-Event-Card-Demo/MC3.pkpass"; sourceTree = "<group>"; };
-		D3189F792C2157B4007C2B0B /* MACRO.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MACRO.pkpass; path = "../../../Pass-Event-Card-Demo/MACRO.pkpass"; sourceTree = "<group>"; };
-		D3189F7A2C2157B4007C2B0B /* MC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC2.pkpass; path = "../../../Pass-Event-Card-Demo/MC2.pkpass"; sourceTree = "<group>"; };
-		D3189F7B2C2157B4007C2B0B /* NC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = NC1.pkpass; path = "../../../Pass-Event-Card-Demo/NC1.pkpass"; sourceTree = "<group>"; };
+		D3189F612C200002007C2B0B /* PassViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassViewControllerWrapper.swift; sourceTree = "<group>"; };
 		D3189F832C2159A1007C2B0B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		D37B628B2C1FD2D900B5650C /* Board-ing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Board-ing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board_ingApp.swift; sourceTree = "<group>"; };
@@ -41,6 +37,17 @@
 		D37B62952C1FD2DB00B5650C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3C8AB1E2C215BBD009404DB /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 		D3C8AB222C21721C009404DB /* onBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingView.swift; sourceTree = "<group>"; };
+		D3F6A7D82C22AEDF006BE2BA /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		D3F6A7DA2C22C509006BE2BA /* NexaBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaBold.otf; path = ../../NexaBold.otf; sourceTree = "<group>"; };
+		D3F6A7DC2C22C8DC006BE2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3F6A7DD2C22CCD0006BE2BA /* MACRO.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MACRO.pkpass; path = "../../../Pass-Event-Card-Demo/MACRO.pkpass"; sourceTree = "<group>"; };
+		D3F6A7DE2C22CCD0006BE2BA /* MC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC2.pkpass; path = "../../../Pass-Event-Card-Demo/MC2.pkpass"; sourceTree = "<group>"; };
+		D3F6A7DF2C22CCD0006BE2BA /* PRELUDE.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = PRELUDE.pkpass; path = "../../../Pass-Event-Card-Demo/PRELUDE.pkpass"; sourceTree = "<group>"; };
+		D3F6A7E02C22CCD0006BE2BA /* MC3.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC3.pkpass; path = "../../../Pass-Event-Card-Demo/MC3.pkpass"; sourceTree = "<group>"; };
+		D3F6A7E12C22CCD0006BE2BA /* NC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = NC1.pkpass; path = "../../../Pass-Event-Card-Demo/NC1.pkpass"; sourceTree = "<group>"; };
+		D3F6A7E22C22CCD0006BE2BA /* EPILOGUE.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = EPILOGUE.pkpass; sourceTree = "<group>"; };
+		D3F6A7E32C22CCD0006BE2BA /* NC2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = NC2.pkpass; path = "../../../Pass-Event-Card-Demo/NC2.pkpass"; sourceTree = "<group>"; };
+		D3F6A7E42C22CCD0006BE2BA /* MC1.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = MC1.pkpass; path = "../../../Pass-Event-Card-Demo/MC1.pkpass"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,20 +80,24 @@
 		D37B628D2C1FD2D900B5650C /* Board-ing */ = {
 			isa = PBXGroup;
 			children = (
+				D3F6A7DC2C22C8DC006BE2BA /* Info.plist */,
 				D37B628E2C1FD2D900B5650C /* Board_ingApp.swift */,
 				D3C8AB1E2C215BBD009404DB /* mainView.swift */,
 				D3189F832C2159A1007C2B0B /* SplashView.swift */,
 				D3C8AB222C21721C009404DB /* onBoardingView.swift */,
 				D37B62902C1FD2D900B5650C /* ContentView.swift */,
-				D3189F612C200002007C2B0B /* PassButtonView.swift */,
+				D3F6A7D82C22AEDF006BE2BA /* CompleteView.swift */,
+				D3189F612C200002007C2B0B /* PassViewControllerWrapper.swift */,
 				D37B62922C1FD2DB00B5650C /* Assets.xcassets */,
-				D3189F792C2157B4007C2B0B /* MACRO.pkpass */,
-				D3189F772C2157B4007C2B0B /* MC1.pkpass */,
-				D3189F7A2C2157B4007C2B0B /* MC2.pkpass */,
-				D3189F782C2157B4007C2B0B /* MC3.pkpass */,
-				D3189F7B2C2157B4007C2B0B /* NC1.pkpass */,
-				D3189F752C2157B4007C2B0B /* NC2.pkpass */,
-				D3189F762C2157B4007C2B0B /* PRELUDE.pkpass */,
+				D3F6A7DA2C22C509006BE2BA /* NexaBold.otf */,
+				D3F6A7E22C22CCD0006BE2BA /* EPILOGUE.pkpass */,
+				D3F6A7DD2C22CCD0006BE2BA /* MACRO.pkpass */,
+				D3F6A7E42C22CCD0006BE2BA /* MC1.pkpass */,
+				D3F6A7DE2C22CCD0006BE2BA /* MC2.pkpass */,
+				D3F6A7E02C22CCD0006BE2BA /* MC3.pkpass */,
+				D3F6A7E12C22CCD0006BE2BA /* NC1.pkpass */,
+				D3F6A7E32C22CCD0006BE2BA /* NC2.pkpass */,
+				D3F6A7DF2C22CCD0006BE2BA /* PRELUDE.pkpass */,
 				D37B62942C1FD2DB00B5650C /* Preview Content */,
 			);
 			path = "Board-ing";
@@ -158,15 +169,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F6A7DB2C22C50A006BE2BA /* NexaBold.otf in Resources */,
+				D3F6A7EC2C22CCD0006BE2BA /* MC1.pkpass in Resources */,
+				D3F6A7E82C22CCD0006BE2BA /* MC3.pkpass in Resources */,
+				D3F6A7EA2C22CCD0006BE2BA /* EPILOGUE.pkpass in Resources */,
 				D37B62962C1FD2DB00B5650C /* Preview Assets.xcassets in Resources */,
-				D3189F7F2C2157B4007C2B0B /* MC3.pkpass in Resources */,
+				D3F6A7E52C22CCD0006BE2BA /* MACRO.pkpass in Resources */,
+				D3F6A7E92C22CCD0006BE2BA /* NC1.pkpass in Resources */,
 				D37B62932C1FD2DB00B5650C /* Assets.xcassets in Resources */,
-				D3189F7C2C2157B4007C2B0B /* NC2.pkpass in Resources */,
-				D3189F812C2157B4007C2B0B /* MC2.pkpass in Resources */,
-				D3189F7D2C2157B4007C2B0B /* PRELUDE.pkpass in Resources */,
-				D3189F7E2C2157B4007C2B0B /* MC1.pkpass in Resources */,
-				D3189F802C2157B4007C2B0B /* MACRO.pkpass in Resources */,
-				D3189F822C2157B4007C2B0B /* NC1.pkpass in Resources */,
+				D3F6A7E62C22CCD0006BE2BA /* MC2.pkpass in Resources */,
+				D3F6A7E72C22CCD0006BE2BA /* PRELUDE.pkpass in Resources */,
+				D3F6A7EB2C22CCD0006BE2BA /* NC2.pkpass in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,11 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37B62912C1FD2D900B5650C /* ContentView.swift in Sources */,
+				D3F6A7D92C22AEDF006BE2BA /* CompleteView.swift in Sources */,
 				D3189F842C2159A1007C2B0B /* SplashView.swift in Sources */,
 				D37B628F2C1FD2D900B5650C /* Board_ingApp.swift in Sources */,
 				D3C8AB232C21721C009404DB /* onBoardingView.swift in Sources */,
 				D3C8AB1F2C215BBD009404DB /* mainView.swift in Sources */,
-				D3189F622C200002007C2B0B /* PassButtonView.swift in Sources */,
+				D3189F622C200002007C2B0B /* PassViewControllerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +333,8 @@
 				DEVELOPMENT_TEAM = F293KMT2AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Board-ing/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +364,8 @@
 				DEVELOPMENT_TEAM = F293KMT2AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Board-ing/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

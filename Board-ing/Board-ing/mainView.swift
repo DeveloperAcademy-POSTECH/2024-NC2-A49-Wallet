@@ -8,14 +8,14 @@
 import SwiftUI
 
 
-
 struct mainView: View {
     
     @State private var isSplashScreenShown = true
+    @AppStorage("learnerName") var learnerName: String = ""
     
     var body: some View {
         if isSplashScreenShown {
-            SplashView()
+            SplashView(learnerName: $learnerName)
                 .onAppear {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                         withAnimation {
@@ -24,11 +24,17 @@ struct mainView: View {
                     }
                 }
         } else {
-            onBoardingView()
+            if learnerName.isEmpty {
+                onBoardingView(learnerName: $learnerName)
+            } else {
+                ContentView(learnerName: $learnerName)
+            }
         }
     }
 }
 
-#Preview {
-    mainView()
-}
+
+//
+//#Preview {
+//    mainView(learnerName: $learnerName)
+//}

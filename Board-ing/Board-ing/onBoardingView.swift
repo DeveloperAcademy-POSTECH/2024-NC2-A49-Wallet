@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct onBoardingView: View {
+    
+    @Binding var learnerName: String
+    
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack{
                 Image("onboarding")
                     .resizable()
@@ -21,14 +24,18 @@ struct onBoardingView: View {
                     }
                     .padding()
                     .foregroundColor(.white)
-                    .font(
-                        Font.custom("SF Pro", size: 28)
-                            .weight(.bold)
-                    )
+                    .font(.system(size: 28, weight: .bold))
                     .padding(.top, 50)
                     Spacer()
-                    NavigationLink(destination: ContentView())
-                    {
+                    Text("닉네임을 입력해주세요🚀")
+                    TextField("닉네임 입력", text: $learnerName)
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.black)
+                        .frame(width: 187, height: 48)
+                        .background(Color(red: 0.95, green: 0.95, blue: 0.95))
+                        .cornerRadius(19)
+                        .padding()
+                    NavigationLink(destination: ContentView(learnerName: $learnerName)) {
                         Text("시작하기")
                             .foregroundColor(.white)
                             .font(
@@ -46,5 +53,5 @@ struct onBoardingView: View {
 }
 
 #Preview {
-    onBoardingView()
+    onBoardingView(learnerName: .constant("Bell"))
 }

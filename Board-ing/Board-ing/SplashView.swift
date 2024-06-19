@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SplashView: View {
+    @Binding var learnerName: String
+    
     var body: some View {
         ZStack {
             Image("Splash")
@@ -18,5 +20,5 @@ struct SplashView: View {
 }
 
 #Preview {
-    SplashView()
+    SplashView(learnerName: .constant("Bell"))
 }
